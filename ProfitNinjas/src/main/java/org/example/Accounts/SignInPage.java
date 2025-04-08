@@ -23,7 +23,7 @@ public class SignInPage {
 
         JLabel errorLabel = new JLabel();
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(69, 71, 350, 62);
         frame.add(logoImg);

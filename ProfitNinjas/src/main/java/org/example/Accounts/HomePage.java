@@ -21,16 +21,16 @@ public class HomePage {
 
         frame.getContentPane().setBackground(Color.decode("#141414"));
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(69, 71, 350, 62);
         frame.add(logoImg);
 
-        ImageIcon arrow = new ImageIcon("src/main/java/org/example/Images/ArrowWhite.png");
+        ImageIcon arrow = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/ArrowWhite.png");
         JLabel arrowImg = new JLabel(arrow);
         arrowImg.setBounds(82, 1, 50, 50);
 
-        ImageIcon purpleArrow1 = new ImageIcon("src/main/java/org/example/Images/ArrowPurple.png");
+        ImageIcon purpleArrow1 = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/ArrowPurple.png");
         JLabel purple = new JLabel(purpleArrow1);
         purple.setBounds(82, 1, 50, 50);
 
@@ -71,7 +71,7 @@ public class HomePage {
         });
         frame.add(loginButton);
 
-        ImageIcon arrow1 = new ImageIcon("src/main/java/org/example/Images/ArrowWhite.png");
+        ImageIcon arrow1 = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/ArrowWhite.png");
         JLabel arrowImg1 = new JLabel(arrow1);
         arrowImg1.setBounds(92, 1, 50, 50);
 
@@ -140,7 +140,7 @@ public class HomePage {
         description2.setForeground(Color.white);
         frame.add(description2);
 
-        ImageIcon zigzagArrow = new ImageIcon("src/main/java/org/example/Images/Arrow1.png");
+        ImageIcon zigzagArrow = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Arrow1.png");
         JLabel zigzagArrowImg = new JLabel(zigzagArrow);
         zigzagArrowImg.setBounds(153, 3, 50, 50);
 
@@ -178,11 +178,11 @@ public class HomePage {
         });
         frame.add(startTradingButton);
 
-        ImageIcon purpleArrow = new ImageIcon("src/main/java/org/example/Images/ArrowPurple.png");
+        ImageIcon purpleArrow = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/ArrowPurple.png");
         JLabel purpleArrowImg = new JLabel(purpleArrow);
         purpleArrowImg.setBounds(7, 7, 50, 20);
 
-        ImageIcon arrow11 = new ImageIcon("src/main/java/org/example/Images/ArrowWhite.png");
+        ImageIcon arrow11 = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/ArrowWhite.png");
         JLabel arrowImg11 = new JLabel(arrow11);
         arrowImg11.setBounds(7, 7, 50, 20);
 
@@ -226,7 +226,7 @@ public class HomePage {
         });
         frame.add(signinButton);
 
-        ImageIcon display = new ImageIcon("src/main/java/org/example/Images/img 1 (2).png");
+        ImageIcon display = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/img 1 (2) (1).png");
         JLabel displayImg = new JLabel(display);
         displayImg.setBounds(636, 133, 619, 612);
         frame.add(displayImg);

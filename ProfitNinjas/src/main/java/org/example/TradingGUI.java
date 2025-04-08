@@ -26,7 +26,7 @@ public class TradingGUI {
         orderPanel(frame);
         new BuyOrder(frame, orderPanel);
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo2.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo2.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(75, 34, 220, 38);
         frame.add(logoImg);
@@ -494,13 +494,11 @@ public class TradingGUI {
     }
 
     public static void updateBalanceLabel() {
-        float currentBalance = portfolioDatabase.getTotalBalance(); // Get the total balance from the database
+        float currentBalance = portfolioDatabase.getTotalBalance();
 
-        // Create a DecimalFormat instance that formats the number to 2 decimal places
         DecimalFormat decimalFormat = new DecimalFormat("#.00");
-        String formattedBalance = decimalFormat.format(currentBalance); // Format the balance
+        String formattedBalance = decimalFormat.format(currentBalance);
 
-        // Update the label with the formatted value
         availableBalance.setText(formattedBalance);
     }
 }

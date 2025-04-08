@@ -24,7 +24,7 @@ public class BuyGUI {
         frame.repaint();
         frame.revalidate();
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo2.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo2.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(75, 34, 220, 38);
         frame.add(logoImg);
@@ -205,7 +205,7 @@ public class BuyGUI {
         payLabel.setForeground(Color.decode("#7A797A"));
         mainPanel.add(payLabel);
 
-        ImageIcon php = new ImageIcon("src/main/java/org/example/Images/php.png");
+        ImageIcon php = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/php.png");
         JLabel phpImg = new JLabel(php);
         phpImg.setBounds(375, 12, 50, 20);
 
@@ -244,7 +244,7 @@ public class BuyGUI {
         usdtAmountLabel.setFont(new Font("Arial", 0, 14));
 
 
-        ImageIcon usdt = new ImageIcon("src/main/java/org/example/Images/usdt.png");
+        ImageIcon usdt = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/usdt.png");
         JLabel usdtImg = new JLabel(usdt);
         usdtImg.setBounds(375, 12, 55, 20);
 
@@ -390,7 +390,7 @@ public class BuyGUI {
 
     public void transactionConfirmed(JFrame frame, JPanel panel) {
 
-        ImageIcon img = new ImageIcon("src/main/java/org/example/Images/confirmed.png");
+        ImageIcon img = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/confirmed.png");
         JLabel confirmedImg = new JLabel(img);
         confirmedImg.setBounds(160, 65, 237, 233);
         panel.add(confirmedImg);

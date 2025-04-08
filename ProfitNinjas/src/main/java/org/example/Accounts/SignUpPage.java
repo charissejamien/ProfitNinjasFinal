@@ -23,7 +23,7 @@ public class SignUpPage {
 
         JLabel errorLabel = new JLabel();
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(69, 71, 350, 62);
         frame.add(logoImg);
@@ -226,7 +226,7 @@ public class SignUpPage {
         description2.setForeground(Color.white);
         frame.add(description2);
 
-        ImageIcon rewards = new ImageIcon("src/main/java/org/example/Images/rewards 1.png");
+        ImageIcon rewards = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/rewards 1 (1).png");
         JLabel rewardsImg = new JLabel(rewards);
         rewardsImg.setBounds(714, 350, 385, 414);
         frame.add(rewardsImg);

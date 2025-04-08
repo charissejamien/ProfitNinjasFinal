@@ -30,7 +30,7 @@ public class CoinTradingGUI {
         orderPanel(frame);
         new BuyOrder(frame, orderPanel);
 
-        ImageIcon logo = new ImageIcon("src/main/java/org/example/Images/Logo2.png");
+        ImageIcon logo = new ImageIcon("ProfitNinjas/src/main/java/org/example/Images/Logo2.png");
         JLabel logoImg = new JLabel(logo);
         logoImg.setBounds(75, 34, 220, 38);
         frame.add(logoImg);
